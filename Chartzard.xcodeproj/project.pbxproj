@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1355A6991FEA119C00C9ED9F /* Chartzard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355A6981FEA119C00C9ED9F /* Chartzard.swift */; };
+		139095FF1FEADF7A0045A60B /* Candle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139095FE1FEADF7A0045A60B /* Candle.swift */; };
+		139096011FEAE2090045A60B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139096001FEAE2090045A60B /* Constants.swift */; };
+		13E5F0F21FE8A91100D097E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E5F0F11FE8A91100D097E2 /* AppDelegate.swift */; };
+		13E5F0F41FE8A91100D097E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E5F0F31FE8A91100D097E2 /* ViewController.swift */; };
+		13E5F0F71FE8A91100D097E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E5F0F51FE8A91100D097E2 /* Main.storyboard */; };
+		13E5F0FA1FE8A91100D097E2 /* Chartzard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13E5F0F81FE8A91100D097E2 /* Chartzard.xcdatamodeld */; };
+		13E5F0FC1FE8A91100D097E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E5F0FB1FE8A91100D097E2 /* Assets.xcassets */; };
+		13E5F0FF1FE8A91100D097E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E5F0FD1FE8A91100D097E2 /* LaunchScreen.storyboard */; };
+		13E5F10A1FE8A91100D097E2 /* ChartzardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E5F1091FE8A91100D097E2 /* ChartzardTests.swift */; };
+		13E5F1151FE8A91100D097E2 /* ChartzardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E5F1141FE8A91100D097E2 /* ChartzardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13E5F1061FE8A91100D097E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E5F0E61FE8A91100D097E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E5F0ED1FE8A91100D097E2;
+			remoteInfo = Chartzard;
+		};
+		13E5F1111FE8A91100D097E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E5F0E61FE8A91100D097E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E5F0ED1FE8A91100D097E2;
+			remoteInfo = Chartzard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1355A6981FEA119C00C9ED9F /* Chartzard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chartzard.swift; sourceTree = "<group>"; };
+		139095FE1FEADF7A0045A60B /* Candle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candle.swift; sourceTree = "<group>"; };
+		139096001FEAE2090045A60B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		13E5F0EE1FE8A91100D097E2 /* Chartzard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartzard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E5F0F11FE8A91100D097E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13E5F0F31FE8A91100D097E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13E5F0F61FE8A91100D097E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13E5F0F91FE8A91100D097E2 /* Chartzard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chartzard.xcdatamodel; sourceTree = "<group>"; };
+		13E5F0FB1FE8A91100D097E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13E5F0FE1FE8A91100D097E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13E5F1001FE8A91100D097E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E5F1051FE8A91100D097E2 /* ChartzardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartzardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E5F1091FE8A91100D097E2 /* ChartzardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartzardTests.swift; sourceTree = "<group>"; };
+		13E5F10B1FE8A91100D097E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E5F1101FE8A91100D097E2 /* ChartzardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartzardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E5F1141FE8A91100D097E2 /* ChartzardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartzardUITests.swift; sourceTree = "<group>"; };
+		13E5F1161FE8A91100D097E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13E5F0EB1FE8A91100D097E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E5F1021FE8A91100D097E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E5F10D1FE8A91100D097E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E5F0E51FE8A91100D097E2 = {
+			isa = PBXGroup;
+			children = (
+				13E5F0F01FE8A91100D097E2 /* Chartzard */,
+				13E5F1081FE8A91100D097E2 /* ChartzardTests */,
+				13E5F1131FE8A91100D097E2 /* ChartzardUITests */,
+				13E5F0EF1FE8A91100D097E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13E5F0EF1FE8A91100D097E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E5F0EE1FE8A91100D097E2 /* Chartzard.app */,
+				13E5F1051FE8A91100D097E2 /* ChartzardTests.xctest */,
+				13E5F1101FE8A91100D097E2 /* ChartzardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13E5F0F01FE8A91100D097E2 /* Chartzard */ = {
+			isa = PBXGroup;
+			children = (
+				13E5F0F11FE8A91100D097E2 /* AppDelegate.swift */,
+				139096001FEAE2090045A60B /* Constants.swift */,
+				13E5F0F31FE8A91100D097E2 /* ViewController.swift */,
+				1355A6981FEA119C00C9ED9F /* Chartzard.swift */,
+				139095FE1FEADF7A0045A60B /* Candle.swift */,
+				13E5F0F51FE8A91100D097E2 /* Main.storyboard */,
+				13E5F0FB1FE8A91100D097E2 /* Assets.xcassets */,
+				13E5F0FD1FE8A91100D097E2 /* LaunchScreen.storyboard */,
+				13E5F1001FE8A91100D097E2 /* Info.plist */,
+				13E5F0F81FE8A91100D097E2 /* Chartzard.xcdatamodeld */,
+			);
+			path = Chartzard;
+			sourceTree = "<group>";
+		};
+		13E5F1081FE8A91100D097E2 /* ChartzardTests */ = {
+			isa = PBXGroup;
+			children = (
+				13E5F1091FE8A91100D097E2 /* ChartzardTests.swift */,
+				13E5F10B1FE8A91100D097E2 /* Info.plist */,
+			);
+			path = ChartzardTests;
+			sourceTree = "<group>";
+		};
+		13E5F1131FE8A91100D097E2 /* ChartzardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13E5F1141FE8A91100D097E2 /* ChartzardUITests.swift */,
+				13E5F1161FE8A91100D097E2 /* Info.plist */,
+			);
+			path = ChartzardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13E5F0ED1FE8A91100D097E2 /* Chartzard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E5F1191FE8A91100D097E2 /* Build configuration list for PBXNativeTarget "Chartzard" */;
+			buildPhases = (
+				13E5F0EA1FE8A91100D097E2 /* Sources */,
+				13E5F0EB1FE8A91100D097E2 /* Frameworks */,
+				13E5F0EC1FE8A91100D097E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chartzard;
+			productName = Chartzard;
+			productReference = 13E5F0EE1FE8A91100D097E2 /* Chartzard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13E5F1041FE8A91100D097E2 /* ChartzardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E5F11C1FE8A91100D097E2 /* Build configuration list for PBXNativeTarget "ChartzardTests" */;
+			buildPhases = (
+				13E5F1011FE8A91100D097E2 /* Sources */,
+				13E5F1021FE8A91100D097E2 /* Frameworks */,
+				13E5F1031FE8A91100D097E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13E5F1071FE8A91100D097E2 /* PBXTargetDependency */,
+			);
+			name = ChartzardTests;
+			productName = ChartzardTests;
+			productReference = 13E5F1051FE8A91100D097E2 /* ChartzardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13E5F10F1FE8A91100D097E2 /* ChartzardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E5F11F1FE8A91100D097E2 /* Build configuration list for PBXNativeTarget "ChartzardUITests" */;
+			buildPhases = (
+				13E5F10C1FE8A91100D097E2 /* Sources */,
+				13E5F10D1FE8A91100D097E2 /* Frameworks */,
+				13E5F10E1FE8A91100D097E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13E5F1121FE8A91100D097E2 /* PBXTargetDependency */,
+			);
+			name = ChartzardUITests;
+			productName = ChartzardUITests;
+			productReference = 13E5F1101FE8A91100D097E2 /* ChartzardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13E5F0E61FE8A91100D097E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Richie;
+				TargetAttributes = {
+					13E5F0ED1FE8A91100D097E2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					13E5F1041FE8A91100D097E2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13E5F0ED1FE8A91100D097E2;
+					};
+					13E5F10F1FE8A91100D097E2 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13E5F0ED1FE8A91100D097E2;
+					};
+				};
+			};
+			buildConfigurationList = 13E5F0E91FE8A91100D097E2 /* Build configuration list for PBXProject "Chartzard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13E5F0E51FE8A91100D097E2;
+			productRefGroup = 13E5F0EF1FE8A91100D097E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13E5F0ED1FE8A91100D097E2 /* Chartzard */,
+				13E5F1041FE8A91100D097E2 /* ChartzardTests */,
+				13E5F10F1FE8A91100D097E2 /* ChartzardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13E5F0EC1FE8A91100D097E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E5F0FF1FE8A91100D097E2 /* LaunchScreen.storyboard in Resources */,
+				13E5F0FC1FE8A91100D097E2 /* Assets.xcassets in Resources */,
+				13E5F0F71FE8A91100D097E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E5F1031FE8A91100D097E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E5F10E1FE8A91100D097E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13E5F0EA1FE8A91100D097E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E5F0F41FE8A91100D097E2 /* ViewController.swift in Sources */,
+				13E5F0FA1FE8A91100D097E2 /* Chartzard.xcdatamodeld in Sources */,
+				13E5F0F21FE8A91100D097E2 /* AppDelegate.swift in Sources */,
+				1355A6991FEA119C00C9ED9F /* Chartzard.swift in Sources */,
+				139095FF1FEADF7A0045A60B /* Candle.swift in Sources */,
+				139096011FEAE2090045A60B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E5F1011FE8A91100D097E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E5F10A1FE8A91100D097E2 /* ChartzardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E5F10C1FE8A91100D097E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E5F1151FE8A91100D097E2 /* ChartzardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13E5F1071FE8A91100D097E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13E5F0ED1FE8A91100D097E2 /* Chartzard */;
+			targetProxy = 13E5F1061FE8A91100D097E2 /* PBXContainerItemProxy */;
+		};
+		13E5F1121FE8A91100D097E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13E5F0ED1FE8A91100D097E2 /* Chartzard */;
+			targetProxy = 13E5F1111FE8A91100D097E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13E5F0F51FE8A91100D097E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E5F0F61FE8A91100D097E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13E5F0FD1FE8A91100D097E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E5F0FE1FE8A91100D097E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13E5F1171FE8A91100D097E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		13E5F1181FE8A91100D097E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13E5F11A1FE8A91100D097E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM3J6VP3Y4;
+				INFOPLIST_FILE = Chartzard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richie.chartzard.Chartzard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13E5F11B1FE8A91100D097E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM3J6VP3Y4;
+				INFOPLIST_FILE = Chartzard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richie.chartzard.Chartzard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13E5F11D1FE8A91100D097E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChartzardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richie.chartzard.ChartzardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chartzard.app/Chartzard";
+			};
+			name = Debug;
+		};
+		13E5F11E1FE8A91100D097E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChartzardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richie.chartzard.ChartzardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chartzard.app/Chartzard";
+			};
+			name = Release;
+		};
+		13E5F1201FE8A91100D097E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChartzardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richie.chartzard.ChartzardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chartzard;
+			};
+			name = Debug;
+		};
+		13E5F1211FE8A91100D097E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChartzardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.richie.chartzard.ChartzardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chartzard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13E5F0E91FE8A91100D097E2 /* Build configuration list for PBXProject "Chartzard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E5F1171FE8A91100D097E2 /* Debug */,
+				13E5F1181FE8A91100D097E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E5F1191FE8A91100D097E2 /* Build configuration list for PBXNativeTarget "Chartzard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E5F11A1FE8A91100D097E2 /* Debug */,
+				13E5F11B1FE8A91100D097E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E5F11C1FE8A91100D097E2 /* Build configuration list for PBXNativeTarget "ChartzardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E5F11D1FE8A91100D097E2 /* Debug */,
+				13E5F11E1FE8A91100D097E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E5F11F1FE8A91100D097E2 /* Build configuration list for PBXNativeTarget "ChartzardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E5F1201FE8A91100D097E2 /* Debug */,
+				13E5F1211FE8A91100D097E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13E5F0F81FE8A91100D097E2 /* Chartzard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13E5F0F91FE8A91100D097E2 /* Chartzard.xcdatamodel */,
+			);
+			currentVersion = 13E5F0F91FE8A91100D097E2 /* Chartzard.xcdatamodel */;
+			path = Chartzard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13E5F0E61FE8A91100D097E2 /* Project object */;
+}
